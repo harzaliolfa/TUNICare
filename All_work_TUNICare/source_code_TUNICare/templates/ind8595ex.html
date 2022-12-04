@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="prediction" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-md-4 form-group">
+            <input type="number" name="age" class="form-control" id="name" placeholder=" Age" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="nbrchildren" id="email" placeholder="Number of children" data-rule="email" data-msg="Please enter a valid email">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="educ" id="phone" placeholder="Education Years" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="fam" id="phone" placeholder="Family members" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="gasset" id="phone" placeholder="Gained Asset" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="dasset" id="phone" placeholder="Durable Asset" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="sasset" id="phone" placeholder="Save Asset" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="liasset" id="phone" placeholder="Living Expenses" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="oexpenses" id="phone" placeholder="Other Expenses" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="insalary" id="phone" placeholder="Incoming Salary" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="inoform" id="phone" placeholder="Incoming Own Farm" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="inbusiness" id="phone" placeholder="Incoming Business" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="innobusiness" id="phone" placeholder="Incoming No Business" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="inagri" id="phone" placeholder="Incoming Agricultural" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="farmexpenses" id="phone" placeholder="Farm Expenses" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="laprimary" id="phone" placeholder="Labor Primary" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="lainvestment" id="phone" placeholder="Lasting Investment" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="number" class="form-control" name="nolainvestment" id="phone" placeholder="No Lasting Investment" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-md-4 form-group mt-3">
+            <select name="city" id="department" class="form-select">
+              <option value="">City</option>
+              <option value="Department 1">Ariana</option>
+              <option value="Department 2">Beja</option>
+              <option value="Department 3">Ben Arous</option>
+              <option value="Department 3">Bizerte</option>
+              <option value="Department 3">Gabes</option>
+              <option value="Department 3">Gafsa</option>
+              <option value="Department 3">Jendouba</option>
+              <option value="Department 3">Kairouan</option>
+              <option value="Department 3">Kasserine</option>
+              <option value="Department 3">Kebili</option>
+              <option value="Department 3">Kef</option>
+              <option value="Department 3">Mahdia</option>
+              <option value="Department 3">Manouba</option>
+              <option value="Department 3">Mednine</option>
+              <option value="Department 3">Monastir</option>
+              <option value="Department 3">Nabeul</option>
+              <option value="Department 3">Sfax</option>
+              <option value="Department 3">Sidi Bouzid</option>
+              <option value="Department 3">Siliana</option>
+              <option value="Department 3">Sousse</option>
+              <option value="Department 3">Tataouine</option>
+              <option value="Department 3">Tozeur</option>
+              <option value="Department 3">Tunis</option>
+              <option value="Department 3">Zaghouan</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="gender" id="doctor" class="form-select">
+              <option value="">Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="married" id="doctor" class="form-select">
+              <option value="">Married</option>
+              <option value="YES">YES</option>
+              <option value="NO">NO</option>
+            </select>
+            <div class="validate"></div>
+          </div>
+        </div>
+
+        
+        <div class="mb-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your Test has been sent successfully. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Validate</button></div>
+      </form>
+</body>
+</html>

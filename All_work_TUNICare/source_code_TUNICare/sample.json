@@ -1,0 +1,23 @@
+{
+    "age": 4,
+    "number_children": 4,
+    "education_level": 4,
+    "total_members ": 4,
+    "gained_asset ": 4,
+    "durable_asset": 4,
+    "save_asset": 44,
+    "living_expenses ": 4,
+    "other_expenses": 4,
+    "incoming_salary ": 4,
+    "incoming_own_farm": 4,
+    "incoming_business": 4,
+    "incoming_no_business": 4,
+    "incoming_agricultural": 4,
+    "farm_expenses": 4,
+    "labor_primary": 4,
+    "lasting_investment": 4,
+    "no_lasting_investmen": 4,
+    "ville_id ": 0,
+    "sex": 1,
+    "married ": 1
+}

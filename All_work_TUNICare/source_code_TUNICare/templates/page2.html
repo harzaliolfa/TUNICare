@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static' , filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static' , filename='vendor/boxicons/css/boxicons.min.css') }}"rel="stylesheet">
+  <link href=" {{ url_for('static' , filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href= " {{ url_for('static' , filename='vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static' , filename='vendor/swiper/swiper-bundle.min.css') }}"  rel="stylesheet">
+    <title>Results</title>
+</head>
+<style>
+    body {
+      background-image: url("{{ url_for('static' , filename='img/bc.jpg') }}");
+      background-size: cover;
+    }
+</style>
+<body >
+    <section id="departments" class="departments">
+    <div class="container" style="margin-top: 5%;">
+
+        <div class="section-title">
+            <h2 class="text-center">The probability of your mental health become desordred is :</h2>
+            <h3 class="text-center" > {{ pred}}</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+
+        <div class="section-title">
+            <h2 class="text-center">Do you want to introduce yourself and say what is your deepest desire while recording a video?</h2>
+           
+            <form action="page2.html">
+                 <div style=" margin-left: 25%; margin-top: 5% " class="container">
+                <input type="file" id="myFile" name="filename">
+                <input class="btn btn-primary" type="submit">
+           </div> 
+        </form>
+        
+    </div>
+    </div>
+</section>
+</body>
+</html>
